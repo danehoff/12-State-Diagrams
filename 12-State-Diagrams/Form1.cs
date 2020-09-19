@@ -34,6 +34,8 @@ namespace State_Diagrams
             int num = pair.Item2;  // a number computed by the controller
             // FINISH ME
 
+            /// When the user wins it will reset the game controller and start new game.
+            /// Otherwise if you loss you have the option to click ok to try again.
             if(state == Status.Win)
             {
 
@@ -51,7 +53,7 @@ namespace State_Diagrams
             else
             {
 
-                label1.Text = "Error";
+                label1.Text = "Error";///???
 
             }
 
@@ -60,7 +62,7 @@ namespace State_Diagrams
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            ///Load
         }
     }
 }
